@@ -95,8 +95,8 @@
             #else
             return [LocationPermissionStrategy new];
             #endif
-        case PermissionGroupMediaLibrary:
-            return [MediaLibraryPermissionStrategy new];
+        // case PermissionGroupMediaLibrary:
+        //     return [MediaLibraryPermissionStrategy new];
         case PermissionGroupMicrophone:
             return [AudioVideoPermissionStrategy new];
         case PermissionGroupPhone:

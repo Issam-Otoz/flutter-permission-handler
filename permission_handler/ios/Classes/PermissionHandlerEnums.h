@@ -74,12 +74,12 @@
     #define PERMISSION_NOTIFICATIONS 1
 #endif
 
-// ios: PermissionGroupMediaLibrary
-// Info.plist: [NSAppleMusicUsageDescription, kTCCServiceMediaLibrary]
-// dart: PermissionGroup.mediaLibrary
-#ifndef PERMISSION_MEDIA_LIBRARY
-    #define PERMISSION_MEDIA_LIBRARY 1
-#endif
+// // ios: PermissionGroupMediaLibrary
+// // Info.plist: [NSAppleMusicUsageDescription, kTCCServiceMediaLibrary]
+// // dart: PermissionGroup.mediaLibrary
+// #ifndef PERMISSION_MEDIA_LIBRARY
+//     #define PERMISSION_MEDIA_LIBRARY 1
+// #endif
 
 // ios: PermissionGroupSensors
 // Info.plist: NSMotionUsageDescription
@@ -95,7 +95,7 @@ typedef NS_ENUM(int, PermissionGroup) {
     PermissionGroupLocation,
     PermissionGroupLocationAlways,
     PermissionGroupLocationWhenInUse,
-    PermissionGroupMediaLibrary,
+    // PermissionGroupMediaLibrary,
     PermissionGroupMicrophone,
     PermissionGroupPhone,
     PermissionGroupPhotos,
